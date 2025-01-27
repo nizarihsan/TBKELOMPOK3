@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-primary {
+  @apply text-blue-600;
+}
+
+.bg-primary {
+  @apply bg-blue-600;
+}
+
+.text-body-color {
+  @apply text-gray-600;
+}
+
+.text-dark {
+  @apply text-gray-900;
+}
+
+.dark\:text-dark-6 {
+  @apply dark:text-gray-400;
+}
